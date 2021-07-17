@@ -1,0 +1,654 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C45B23D826A265CA0094237D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45B23D726A265CA0094237D /* AppDelegate.swift */; };
+		C45B23DA26A265CA0094237D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45B23D926A265CA0094237D /* SceneDelegate.swift */; };
+		C45B23DC26A265CA0094237D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45B23DB26A265CA0094237D /* ViewController.swift */; };
+		C45B23DF26A265CA0094237D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C45B23DD26A265CA0094237D /* Main.storyboard */; };
+		C45B23E126A265CD0094237D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C45B23E026A265CD0094237D /* Assets.xcassets */; };
+		C45B23E426A265CD0094237D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C45B23E226A265CD0094237D /* LaunchScreen.storyboard */; };
+		C45B23E926A265CE0094237D /* soundboardapp WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = C45B23E826A265CE0094237D /* soundboardapp WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C45B23EF26A265CE0094237D /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C45B23ED26A265CE0094237D /* Interface.storyboard */; };
+		C45B23F126A265D10094237D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C45B23F026A265D10094237D /* Assets.xcassets */; };
+		C45B23F826A265D20094237D /* soundboardapp WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = C45B23F726A265D20094237D /* soundboardapp WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C45B23FD26A265D20094237D /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45B23FC26A265D20094237D /* InterfaceController.swift */; };
+		C45B23FF26A265D20094237D /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45B23FE26A265D20094237D /* ExtensionDelegate.swift */; };
+		C45B240126A265D40094237D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C45B240026A265D40094237D /* Assets.xcassets */; };
+		C45B241126A26B720094237D /* SoundPlaying.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45B241026A26B720094237D /* SoundPlaying.swift */; };
+		C45B241926A271500094237D /* water-droplets-2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C45B241326A271500094237D /* water-droplets-2.mp3 */; };
+		C45B241A26A271500094237D /* bus-interior-1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C45B241426A271500094237D /* bus-interior-1.mp3 */; };
+		C45B241B26A271510094237D /* matches-3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C45B241526A271500094237D /* matches-3.mp3 */; };
+		C45B241C26A271510094237D /* boarding-accouncement-1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C45B241626A271500094237D /* boarding-accouncement-1.mp3 */; };
+		C45B241D26A271510094237D /* wind-howl-01.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C45B241726A271500094237D /* wind-howl-01.mp3 */; };
+		C45B241E26A271510094237D /* lake-waves-01.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C45B241826A271500094237D /* lake-waves-01.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C45B23EA26A265CE0094237D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C45B23CC26A265CA0094237D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C45B23E726A265CE0094237D;
+			remoteInfo = "soundboardapp WatchKit App";
+		};
+		C45B23F926A265D20094237D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C45B23CC26A265CA0094237D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C45B23F626A265D20094237D;
+			remoteInfo = "soundboardapp WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C45B240826A265D40094237D /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				C45B23F826A265D20094237D /* soundboardapp WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C45B240C26A265D40094237D /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				C45B23E926A265CE0094237D /* soundboardapp WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C45B23D426A265CA0094237D /* soundboardapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = soundboardapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C45B23D726A265CA0094237D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C45B23D926A265CA0094237D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C45B23DB26A265CA0094237D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C45B23DE26A265CA0094237D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C45B23E026A265CD0094237D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C45B23E326A265CD0094237D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C45B23E526A265CD0094237D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C45B23E826A265CE0094237D /* soundboardapp WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "soundboardapp WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C45B23EE26A265CE0094237D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		C45B23F026A265D10094237D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C45B23F226A265D10094237D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C45B23F726A265D20094237D /* soundboardapp WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "soundboardapp WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C45B23FC26A265D20094237D /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		C45B23FE26A265D20094237D /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		C45B240026A265D40094237D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C45B240226A265D40094237D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C45B241026A26B720094237D /* SoundPlaying.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundPlaying.swift; sourceTree = "<group>"; };
+		C45B241326A271500094237D /* water-droplets-2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "water-droplets-2.mp3"; sourceTree = "<group>"; };
+		C45B241426A271500094237D /* bus-interior-1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "bus-interior-1.mp3"; sourceTree = "<group>"; };
+		C45B241526A271500094237D /* matches-3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "matches-3.mp3"; sourceTree = "<group>"; };
+		C45B241626A271500094237D /* boarding-accouncement-1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "boarding-accouncement-1.mp3"; sourceTree = "<group>"; };
+		C45B241726A271500094237D /* wind-howl-01.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "wind-howl-01.mp3"; sourceTree = "<group>"; };
+		C45B241826A271500094237D /* lake-waves-01.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "lake-waves-01.mp3"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C45B23D126A265CA0094237D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C45B23F426A265D20094237D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C45B23CB26A265CA0094237D = {
+			isa = PBXGroup;
+			children = (
+				C45B23D626A265CA0094237D /* soundboardapp */,
+				C45B23EC26A265CE0094237D /* soundboardapp WatchKit App */,
+				C45B23FB26A265D20094237D /* soundboardapp WatchKit Extension */,
+				C45B23D526A265CA0094237D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C45B23D526A265CA0094237D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C45B23D426A265CA0094237D /* soundboardapp.app */,
+				C45B23E826A265CE0094237D /* soundboardapp WatchKit App.app */,
+				C45B23F726A265D20094237D /* soundboardapp WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C45B23D626A265CA0094237D /* soundboardapp */ = {
+			isa = PBXGroup;
+			children = (
+				C45B23D726A265CA0094237D /* AppDelegate.swift */,
+				C45B23D926A265CA0094237D /* SceneDelegate.swift */,
+				C45B23DB26A265CA0094237D /* ViewController.swift */,
+				C45B23DD26A265CA0094237D /* Main.storyboard */,
+				C45B23E026A265CD0094237D /* Assets.xcassets */,
+				C45B23E226A265CD0094237D /* LaunchScreen.storyboard */,
+				C45B23E526A265CD0094237D /* Info.plist */,
+			);
+			path = soundboardapp;
+			sourceTree = "<group>";
+		};
+		C45B23EC26A265CE0094237D /* soundboardapp WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				C45B23ED26A265CE0094237D /* Interface.storyboard */,
+				C45B23F026A265D10094237D /* Assets.xcassets */,
+				C45B23F226A265D10094237D /* Info.plist */,
+			);
+			path = "soundboardapp WatchKit App";
+			sourceTree = "<group>";
+		};
+		C45B23FB26A265D20094237D /* soundboardapp WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				C45B23FC26A265D20094237D /* InterfaceController.swift */,
+				C45B23FE26A265D20094237D /* ExtensionDelegate.swift */,
+				C45B240026A265D40094237D /* Assets.xcassets */,
+				C45B240226A265D40094237D /* Info.plist */,
+				C45B241026A26B720094237D /* SoundPlaying.swift */,
+				C45B241226A271500094237D /* audio */,
+			);
+			path = "soundboardapp WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		C45B241226A271500094237D /* audio */ = {
+			isa = PBXGroup;
+			children = (
+				C45B241326A271500094237D /* water-droplets-2.mp3 */,
+				C45B241426A271500094237D /* bus-interior-1.mp3 */,
+				C45B241526A271500094237D /* matches-3.mp3 */,
+				C45B241626A271500094237D /* boarding-accouncement-1.mp3 */,
+				C45B241726A271500094237D /* wind-howl-01.mp3 */,
+				C45B241826A271500094237D /* lake-waves-01.mp3 */,
+			);
+			path = audio;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C45B23D326A265CA0094237D /* soundboardapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C45B240D26A265D40094237D /* Build configuration list for PBXNativeTarget "soundboardapp" */;
+			buildPhases = (
+				C45B23D026A265CA0094237D /* Sources */,
+				C45B23D126A265CA0094237D /* Frameworks */,
+				C45B23D226A265CA0094237D /* Resources */,
+				C45B240C26A265D40094237D /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C45B23EB26A265CE0094237D /* PBXTargetDependency */,
+			);
+			name = soundboardapp;
+			productName = soundboardapp;
+			productReference = C45B23D426A265CA0094237D /* soundboardapp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C45B23E726A265CE0094237D /* soundboardapp WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C45B240926A265D40094237D /* Build configuration list for PBXNativeTarget "soundboardapp WatchKit App" */;
+			buildPhases = (
+				C45B23E626A265CE0094237D /* Resources */,
+				C45B240826A265D40094237D /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C45B23FA26A265D20094237D /* PBXTargetDependency */,
+			);
+			name = "soundboardapp WatchKit App";
+			productName = "soundboardapp WatchKit App";
+			productReference = C45B23E826A265CE0094237D /* soundboardapp WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		C45B23F626A265D20094237D /* soundboardapp WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C45B240526A265D40094237D /* Build configuration list for PBXNativeTarget "soundboardapp WatchKit Extension" */;
+			buildPhases = (
+				C45B23F326A265D20094237D /* Sources */,
+				C45B23F426A265D20094237D /* Frameworks */,
+				C45B23F526A265D20094237D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "soundboardapp WatchKit Extension";
+			productName = "soundboardapp WatchKit Extension";
+			productReference = C45B23F726A265D20094237D /* soundboardapp WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C45B23CC26A265CA0094237D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Fernando Moreira";
+				TargetAttributes = {
+					C45B23D326A265CA0094237D = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					C45B23E726A265CE0094237D = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					C45B23F626A265D20094237D = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = C45B23CF26A265CA0094237D /* Build configuration list for PBXProject "soundboardapp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C45B23CB26A265CA0094237D;
+			productRefGroup = C45B23D526A265CA0094237D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C45B23D326A265CA0094237D /* soundboardapp */,
+				C45B23E726A265CE0094237D /* soundboardapp WatchKit App */,
+				C45B23F626A265D20094237D /* soundboardapp WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C45B23D226A265CA0094237D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C45B23E426A265CD0094237D /* LaunchScreen.storyboard in Resources */,
+				C45B23E126A265CD0094237D /* Assets.xcassets in Resources */,
+				C45B23DF26A265CA0094237D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C45B23E626A265CE0094237D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C45B23F126A265D10094237D /* Assets.xcassets in Resources */,
+				C45B23EF26A265CE0094237D /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C45B23F526A265D20094237D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C45B241B26A271510094237D /* matches-3.mp3 in Resources */,
+				C45B241E26A271510094237D /* lake-waves-01.mp3 in Resources */,
+				C45B241D26A271510094237D /* wind-howl-01.mp3 in Resources */,
+				C45B241926A271500094237D /* water-droplets-2.mp3 in Resources */,
+				C45B241A26A271500094237D /* bus-interior-1.mp3 in Resources */,
+				C45B241C26A271510094237D /* boarding-accouncement-1.mp3 in Resources */,
+				C45B240126A265D40094237D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C45B23D026A265CA0094237D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C45B23DC26A265CA0094237D /* ViewController.swift in Sources */,
+				C45B23D826A265CA0094237D /* AppDelegate.swift in Sources */,
+				C45B23DA26A265CA0094237D /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C45B23F326A265D20094237D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C45B23FF26A265D20094237D /* ExtensionDelegate.swift in Sources */,
+				C45B241126A26B720094237D /* SoundPlaying.swift in Sources */,
+				C45B23FD26A265D20094237D /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C45B23EB26A265CE0094237D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C45B23E726A265CE0094237D /* soundboardapp WatchKit App */;
+			targetProxy = C45B23EA26A265CE0094237D /* PBXContainerItemProxy */;
+		};
+		C45B23FA26A265D20094237D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C45B23F626A265D20094237D /* soundboardapp WatchKit Extension */;
+			targetProxy = C45B23F926A265D20094237D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C45B23DD26A265CA0094237D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C45B23DE26A265CA0094237D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C45B23E226A265CD0094237D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C45B23E326A265CD0094237D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		C45B23ED26A265CE0094237D /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C45B23EE26A265CE0094237D /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C45B240326A265D40094237D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C45B240426A265D40094237D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C45B240626A265D40094237D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "soundboardapp WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fernandomoreira.soundboardapp.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.2;
+			};
+			name = Debug;
+		};
+		C45B240726A265D40094237D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "soundboardapp WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fernandomoreira.soundboardapp.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.2;
+			};
+			name = Release;
+		};
+		C45B240A26A265D40094237D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				IBSC_MODULE = soundboardapp_WatchKit_Extension;
+				INFOPLIST_FILE = "soundboardapp WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fernandomoreira.soundboardapp.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.2;
+			};
+			name = Debug;
+		};
+		C45B240B26A265D40094237D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				IBSC_MODULE = soundboardapp_WatchKit_Extension;
+				INFOPLIST_FILE = "soundboardapp WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fernandomoreira.soundboardapp.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.2;
+			};
+			name = Release;
+		};
+		C45B240E26A265D40094237D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = soundboardapp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fernandomoreira.soundboardapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C45B240F26A265D40094237D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = soundboardapp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fernandomoreira.soundboardapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C45B23CF26A265CA0094237D /* Build configuration list for PBXProject "soundboardapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C45B240326A265D40094237D /* Debug */,
+				C45B240426A265D40094237D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C45B240526A265D40094237D /* Build configuration list for PBXNativeTarget "soundboardapp WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C45B240626A265D40094237D /* Debug */,
+				C45B240726A265D40094237D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C45B240926A265D40094237D /* Build configuration list for PBXNativeTarget "soundboardapp WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C45B240A26A265D40094237D /* Debug */,
+				C45B240B26A265D40094237D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C45B240D26A265D40094237D /* Build configuration list for PBXNativeTarget "soundboardapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C45B240E26A265D40094237D /* Debug */,
+				C45B240F26A265D40094237D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C45B23CC26A265CA0094237D /* Project object */;
+}
