@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="16097" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
-    <device id="watch38"/>
+    <device id="watch44"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="16012"/>
@@ -47,6 +47,24 @@
                 </controller>
             </objects>
             <point key="canvasLocation" x="119" y="118"/>
+        </scene>
+        <!--Table Interface Controller-->
+        <scene sceneID="KwM-ma-oc8">
+            <objects>
+                <controller id="I3m-KG-pXd" customClass="TableInterfaceController" customModule="soundboardapp_WatchKit_Extension">
+                    <items>
+                        <table alignment="left" id="qlv-WB-2uC"/>
+                        <table alignment="left" id="fDw-2D-TAc">
+                            <items>
+                                <tableRow id="n0M-GK-z0z" customClass="SoundRow" customModule="soundboardapp_WatchKit_Extension">
+                                    <group key="rootItem" width="1" alignment="left" id="mqe-ir-C8s"/>
+                                </tableRow>
+                            </items>
+                        </table>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="376" y="116"/>
         </scene>
     </scenes>
 </document>

@@ -30,21 +30,21 @@ class InterfaceController: WKInterfaceController, SoundPlaying {
     }
     
     @IBAction func playSound1() {
-        
+        playSound(named: "lake")
     }
     
     
     @IBAction func playSound2() {
-        
+        playSound(named: "water")
     }
     
     
     @IBAction func playSound3() {
-        
+        playSound(named: "wind")
     }
     
     @IBAction func playSound4() {
-        
+        playSound(named: "boarding")
     }
     
 }

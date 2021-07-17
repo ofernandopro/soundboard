@@ -21,12 +21,14 @@
 		C45B23FF26A265D20094237D /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45B23FE26A265D20094237D /* ExtensionDelegate.swift */; };
 		C45B240126A265D40094237D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C45B240026A265D40094237D /* Assets.xcassets */; };
 		C45B241126A26B720094237D /* SoundPlaying.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45B241026A26B720094237D /* SoundPlaying.swift */; };
-		C45B241926A271500094237D /* water-droplets-2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C45B241326A271500094237D /* water-droplets-2.mp3 */; };
-		C45B241A26A271500094237D /* bus-interior-1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C45B241426A271500094237D /* bus-interior-1.mp3 */; };
-		C45B241B26A271510094237D /* matches-3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C45B241526A271500094237D /* matches-3.mp3 */; };
-		C45B241C26A271510094237D /* boarding-accouncement-1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C45B241626A271500094237D /* boarding-accouncement-1.mp3 */; };
-		C45B241D26A271510094237D /* wind-howl-01.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C45B241726A271500094237D /* wind-howl-01.mp3 */; };
-		C45B241E26A271510094237D /* lake-waves-01.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C45B241826A271500094237D /* lake-waves-01.mp3 */; };
+		C45B241926A271500094237D /* water.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C45B241326A271500094237D /* water.mp3 */; };
+		C45B241A26A271500094237D /* bus.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C45B241426A271500094237D /* bus.mp3 */; };
+		C45B241B26A271510094237D /* matches.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C45B241526A271500094237D /* matches.mp3 */; };
+		C45B241C26A271510094237D /* boarding.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C45B241626A271500094237D /* boarding.mp3 */; };
+		C45B241D26A271510094237D /* wind.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C45B241726A271500094237D /* wind.mp3 */; };
+		C45B241E26A271510094237D /* lake.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C45B241826A271500094237D /* lake.mp3 */; };
+		C4F8B41A26A359E500A67B7B /* TableInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F8B41926A359E500A67B7B /* TableInterfaceController.swift */; };
+		C4F8B41E26A35AC300A67B7B /* SoundRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F8B41D26A35AC300A67B7B /* SoundRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -90,12 +92,14 @@
 		C45B240026A265D40094237D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C45B240226A265D40094237D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C45B241026A26B720094237D /* SoundPlaying.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundPlaying.swift; sourceTree = "<group>"; };
-		C45B241326A271500094237D /* water-droplets-2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "water-droplets-2.mp3"; sourceTree = "<group>"; };
-		C45B241426A271500094237D /* bus-interior-1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "bus-interior-1.mp3"; sourceTree = "<group>"; };
-		C45B241526A271500094237D /* matches-3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "matches-3.mp3"; sourceTree = "<group>"; };
-		C45B241626A271500094237D /* boarding-accouncement-1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "boarding-accouncement-1.mp3"; sourceTree = "<group>"; };
-		C45B241726A271500094237D /* wind-howl-01.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "wind-howl-01.mp3"; sourceTree = "<group>"; };
-		C45B241826A271500094237D /* lake-waves-01.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "lake-waves-01.mp3"; sourceTree = "<group>"; };
+		C45B241326A271500094237D /* water.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = water.mp3; sourceTree = "<group>"; };
+		C45B241426A271500094237D /* bus.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bus.mp3; sourceTree = "<group>"; };
+		C45B241526A271500094237D /* matches.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = matches.mp3; sourceTree = "<group>"; };
+		C45B241626A271500094237D /* boarding.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = boarding.mp3; sourceTree = "<group>"; };
+		C45B241726A271500094237D /* wind.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = wind.mp3; sourceTree = "<group>"; };
+		C45B241826A271500094237D /* lake.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = lake.mp3; sourceTree = "<group>"; };
+		C4F8B41926A359E500A67B7B /* TableInterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableInterfaceController.swift; sourceTree = "<group>"; };
+		C4F8B41D26A35AC300A67B7B /* SoundRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundRow.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,6 +167,8 @@
 		C45B23FB26A265D20094237D /* soundboardapp WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
+				C4F8B41D26A35AC300A67B7B /* SoundRow.swift */,
+				C4F8B41926A359E500A67B7B /* TableInterfaceController.swift */,
 				C45B23FC26A265D20094237D /* InterfaceController.swift */,
 				C45B23FE26A265D20094237D /* ExtensionDelegate.swift */,
 				C45B240026A265D40094237D /* Assets.xcassets */,
@@ -176,12 +182,12 @@
 		C45B241226A271500094237D /* audio */ = {
 			isa = PBXGroup;
 			children = (
-				C45B241326A271500094237D /* water-droplets-2.mp3 */,
-				C45B241426A271500094237D /* bus-interior-1.mp3 */,
-				C45B241526A271500094237D /* matches-3.mp3 */,
-				C45B241626A271500094237D /* boarding-accouncement-1.mp3 */,
-				C45B241726A271500094237D /* wind-howl-01.mp3 */,
-				C45B241826A271500094237D /* lake-waves-01.mp3 */,
+				C45B241326A271500094237D /* water.mp3 */,
+				C45B241426A271500094237D /* bus.mp3 */,
+				C45B241526A271500094237D /* matches.mp3 */,
+				C45B241626A271500094237D /* boarding.mp3 */,
+				C45B241726A271500094237D /* wind.mp3 */,
+				C45B241826A271500094237D /* lake.mp3 */,
 			);
 			path = audio;
 			sourceTree = "<group>";
@@ -307,12 +313,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C45B241B26A271510094237D /* matches-3.mp3 in Resources */,
-				C45B241E26A271510094237D /* lake-waves-01.mp3 in Resources */,
-				C45B241D26A271510094237D /* wind-howl-01.mp3 in Resources */,
-				C45B241926A271500094237D /* water-droplets-2.mp3 in Resources */,
-				C45B241A26A271500094237D /* bus-interior-1.mp3 in Resources */,
-				C45B241C26A271510094237D /* boarding-accouncement-1.mp3 in Resources */,
+				C45B241B26A271510094237D /* matches.mp3 in Resources */,
+				C45B241E26A271510094237D /* lake.mp3 in Resources */,
+				C45B241D26A271510094237D /* wind.mp3 in Resources */,
+				C45B241926A271500094237D /* water.mp3 in Resources */,
+				C45B241A26A271500094237D /* bus.mp3 in Resources */,
+				C45B241C26A271510094237D /* boarding.mp3 in Resources */,
 				C45B240126A265D40094237D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -335,7 +341,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C45B23FF26A265D20094237D /* ExtensionDelegate.swift in Sources */,
+				C4F8B41E26A35AC300A67B7B /* SoundRow.swift in Sources */,
 				C45B241126A26B720094237D /* SoundPlaying.swift in Sources */,
+				C4F8B41A26A359E500A67B7B /* TableInterfaceController.swift in Sources */,
 				C45B23FD26A265D20094237D /* InterfaceController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
