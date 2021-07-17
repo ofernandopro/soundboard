@@ -10,4 +10,7 @@ import WatchKit
 
 class SoundRow: NSObject {
 
+    @IBOutlet weak var textLabel: WKInterfaceLabel!
+    
+    
 }

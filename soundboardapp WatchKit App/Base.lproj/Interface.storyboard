@@ -44,6 +44,9 @@
                             </items>
                         </group>
                     </items>
+                    <connections>
+                        <segue destination="I3m-KG-pXd" kind="relationship" relationship="nextPage" id="jOn-vB-z5c"/>
+                    </connections>
                 </controller>
             </objects>
             <point key="canvasLocation" x="119" y="118"/>
@@ -53,15 +56,24 @@
             <objects>
                 <controller id="I3m-KG-pXd" customClass="TableInterfaceController" customModule="soundboardapp_WatchKit_Extension">
                     <items>
-                        <table alignment="left" id="qlv-WB-2uC"/>
                         <table alignment="left" id="fDw-2D-TAc">
                             <items>
-                                <tableRow id="n0M-GK-z0z" customClass="SoundRow" customModule="soundboardapp_WatchKit_Extension">
-                                    <group key="rootItem" width="1" alignment="left" id="mqe-ir-C8s"/>
+                                <tableRow identifier="Row" id="n0M-GK-z0z" customClass="SoundRow" customModule="soundboardapp_WatchKit_Extension">
+                                    <group key="rootItem" width="1" alignment="left" id="mqe-ir-C8s">
+                                        <items>
+                                            <label alignment="left" verticalAlignment="center" text="Label" id="29z-rI-YQp"/>
+                                        </items>
+                                    </group>
+                                    <connections>
+                                        <outlet property="textLabel" destination="29z-rI-YQp" id="ONL-le-q4D"/>
+                                    </connections>
                                 </tableRow>
                             </items>
                         </table>
                     </items>
+                    <connections>
+                        <outlet property="table" destination="fDw-2D-TAc" id="MgT-Mn-E3Z"/>
+                    </connections>
                 </controller>
             </objects>
             <point key="canvasLocation" x="376" y="116"/>
