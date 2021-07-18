@@ -27,6 +27,8 @@
 		C45B241C26A271510094237D /* boarding.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C45B241626A271500094237D /* boarding.mp3 */; };
 		C45B241D26A271510094237D /* wind.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C45B241726A271500094237D /* wind.mp3 */; };
 		C45B241E26A271510094237D /* lake.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C45B241826A271500094237D /* lake.mp3 */; };
+		C4B92D9C26A4E39700B5327F /* CustomInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B92D9B26A4E39700B5327F /* CustomInterfaceController.swift */; };
+		C4B92D9E26A4E57700B5327F /* FileManager-DocumentsDirectory.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B92D9D26A4E57700B5327F /* FileManager-DocumentsDirectory.swift */; };
 		C4F8B41A26A359E500A67B7B /* TableInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F8B41926A359E500A67B7B /* TableInterfaceController.swift */; };
 		C4F8B41E26A35AC300A67B7B /* SoundRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F8B41D26A35AC300A67B7B /* SoundRow.swift */; };
 /* End PBXBuildFile section */
@@ -98,6 +100,8 @@
 		C45B241626A271500094237D /* boarding.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = boarding.mp3; sourceTree = "<group>"; };
 		C45B241726A271500094237D /* wind.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = wind.mp3; sourceTree = "<group>"; };
 		C45B241826A271500094237D /* lake.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = lake.mp3; sourceTree = "<group>"; };
+		C4B92D9B26A4E39700B5327F /* CustomInterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomInterfaceController.swift; sourceTree = "<group>"; };
+		C4B92D9D26A4E57700B5327F /* FileManager-DocumentsDirectory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "FileManager-DocumentsDirectory.swift"; path = "soundboardapp WatchKit App/FileManager-DocumentsDirectory.swift"; sourceTree = SOURCE_ROOT; };
 		C4F8B41926A359E500A67B7B /* TableInterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableInterfaceController.swift; sourceTree = "<group>"; };
 		C4F8B41D26A35AC300A67B7B /* SoundRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundRow.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
@@ -167,7 +171,9 @@
 		C45B23FB26A265D20094237D /* soundboardapp WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
+				C4B92D9D26A4E57700B5327F /* FileManager-DocumentsDirectory.swift */,
 				C4F8B41D26A35AC300A67B7B /* SoundRow.swift */,
+				C4B92D9B26A4E39700B5327F /* CustomInterfaceController.swift */,
 				C4F8B41926A359E500A67B7B /* TableInterfaceController.swift */,
 				C45B23FC26A265D20094237D /* InterfaceController.swift */,
 				C45B23FE26A265D20094237D /* ExtensionDelegate.swift */,
@@ -341,9 +347,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				C45B23FF26A265D20094237D /* ExtensionDelegate.swift in Sources */,
+				C4B92D9E26A4E57700B5327F /* FileManager-DocumentsDirectory.swift in Sources */,
 				C4F8B41E26A35AC300A67B7B /* SoundRow.swift in Sources */,
 				C45B241126A26B720094237D /* SoundPlaying.swift in Sources */,
 				C4F8B41A26A359E500A67B7B /* TableInterfaceController.swift in Sources */,
+				C4B92D9C26A4E39700B5327F /* CustomInterfaceController.swift in Sources */,
 				C45B23FD26A265D20094237D /* InterfaceController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

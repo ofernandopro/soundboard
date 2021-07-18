@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="16097" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
-    <device id="watch44"/>
+    <device id="watch38"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="16012"/>
@@ -73,10 +73,33 @@
                     </items>
                     <connections>
                         <outlet property="table" destination="fDw-2D-TAc" id="MgT-Mn-E3Z"/>
+                        <segue destination="j7r-LY-lkA" kind="relationship" relationship="nextPage" id="NOo-EZ-lQt"/>
                     </connections>
                 </controller>
             </objects>
             <point key="canvasLocation" x="376" y="116"/>
+        </scene>
+        <!--Custom Interface Controller-->
+        <scene sceneID="679-ap-UQZ">
+            <objects>
+                <controller id="j7r-LY-lkA" customClass="CustomInterfaceController" customModule="soundboardapp_WatchKit_Extension">
+                    <items>
+                        <button width="1" height="0.5" alignment="left" title="Record" id="cwh-ar-PFl">
+                            <color key="backgroundColor" red="0.68960184010000003" green="0.1234275303" blue="0.2339492124" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <connections>
+                                <action selector="recordTapped" destination="j7r-LY-lkA" id="Q3R-to-CH8"/>
+                            </connections>
+                        </button>
+                        <button width="1" height="0.5" alignment="left" title="Play" id="OPV-3t-5CN">
+                            <color key="backgroundColor" red="0.18124494668544228" green="0.68847160532994922" blue="0.36260961737270581" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <connections>
+                                <action selector="playTapped" destination="j7r-LY-lkA" id="AfN-a9-i6L"/>
+                            </connections>
+                        </button>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="643" y="116"/>
         </scene>
     </scenes>
 </document>
