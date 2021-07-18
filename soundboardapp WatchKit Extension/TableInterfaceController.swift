@@ -6,13 +6,14 @@
 //  Copyright © 2021 Fernando Moreira. All rights reserved.
 //
 
+import AVFoundation
 import WatchKit
-import Foundation
 
 
-class TableInterfaceController: WKInterfaceController {
+class TableInterfaceController: WKInterfaceController, SoundPlaying {
     
     @IBOutlet weak var table: WKInterfaceTable!
+    var audioPlayer: AVAudioPlayer?
     
     let sounds = Bundle.main.urls(forResourcesWithExtension: "mp3", subdirectory: nil)?.map { $0.deletingPathExtension().lastPathComponent }.sorted() ?? []
     
@@ -35,6 +36,10 @@ class TableInterfaceController: WKInterfaceController {
     override func didDeactivate() {
         // This method is called when watch view controller is no longer visible
         super.didDeactivate()
+    }
+    
+    override func table(_ table: WKInterfaceTable, didSelectRowAt rowIndex: Int) {
+        playSound(named: sounds[rowIndex])
     }
 
 }
